@@ -1,0 +1,15 @@
+{
+  "name": "naoshima",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "散財は人生や": "./bin/散財は人生や"
+  }
+}

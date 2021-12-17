@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ "`uname`" = "Darwin" ]; then
+  open https://www.youtube.com/channel/UCGGi7bW6Ikk_C4cxn3h16MQ 
+  exit
+fi
+
+if [ "`command -v xdg-open`" != "" ]; then
+  xdg-open https://www.youtube.com/channel/UCGGi7bW6Ikk_C4cxn3h16MQ
+fi
